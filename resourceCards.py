@@ -2,7 +2,8 @@ import numpy as np
 
 class ResourceCards():
     def __init__(self):
-        self.deck = self.initiliaze_resource_cards() ## python list
-
-    def initiliaze_resource_cards(self):
-        return None
+        self.brick = ["brick"] * 19
+        self.ore = ["ore"] * 19
+        self.wheat = ["wheat"] * 19
+        self.wood = ["wood"] * 19
+        self.sheep = ["sheep"] * 19
